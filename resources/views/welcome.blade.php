@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                   <a href="/todos">TODOS</a>
                 </div>
 
                 <div class="links">
