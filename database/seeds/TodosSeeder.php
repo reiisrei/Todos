@@ -1,4 +1,7 @@
 <?php
+/**
+ *  nilagay ko tong use App\Todo; para doon sa factory(Todo::class, 10)->create(); pwedeng ganyan imbes na factory(App\Todo::class, 10)->create();
+*/
 use App\Todo;
 use Illuminate\Database\Seeder;
 
@@ -11,6 +14,6 @@ class TodosSeeder extends Seeder
      */
     public function run()
     {
-        factory(Todo::class, 10)->create();
+        factory(Todo::class, 5)->create();
     }
 }
