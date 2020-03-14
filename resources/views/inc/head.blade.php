@@ -19,6 +19,19 @@
   <!-- Theme CSS -->
   <link href="{{ asset('css/freelancer.min.css') }}" rel="stylesheet">
 <style>
+div.timer-title {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:ivory;
+    font-weight: bolder;
+    font-size: 35px;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  /* width: 339.984; */
+  /* height: 245; */
+  /* border: 1px solid #2c3e50; */
+
+}
 
 .thumbnail {
     position: relative;

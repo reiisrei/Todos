@@ -5,8 +5,8 @@
         <!-- Footer Location -->
         <div class="col-lg-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">2215 John Daniel Drive
-            <br>Clark, MO 65243</p>
+          <p class="lead mb-0">Manila
+            <br>Philippines</p>
         </div>
 
         <!-- Footer Social Icons -->
@@ -29,8 +29,8 @@
         <!-- Footer About Text -->
         <div class="col-lg-4">
           <h4 class="text-uppercase mb-4">About Epic Countdown</h4>
-          <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
-            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+          <p class="lead mb-0">Made by
+            <a href="http://startbootstrap.com">Marjon Ramos</a>.</p>
         </div>
 
       </div>
@@ -39,6 +39,6 @@
  <!-- Copyright Section -->
  <section class="copyright py-4 text-center text-white">
     <div class="container">
-      <small>Copyright &copy; Your Website 2019</small>
+      <small>Copyright &copy;Epic Countdown 2020</small>
     </div>
   </section>

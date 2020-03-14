@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-Todo list
+Epic Countdown
 @endsection
 
 @section('content')
@@ -9,7 +9,7 @@ Todo list
 @include('inc.header')
 
   <!-- Portfolio Section -->
-  <section class="page-section portfolio" id="portfolio">
+  <section class="page-section portfolio" id="popular">
     <div class="container">
 
       <!-- Portfolio Section Heading -->
@@ -26,7 +26,39 @@ Todo list
 
       <!-- Portfolio Grid Items -->
       @include('inc.home-page-countdown')
+      <div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-dark" href="https://startbootstrap.com/themes/freelancer/">
+          <i class="fas fa-chevron-circle-down mr-2"></i>
+          See More
+        </a>
+      </div>
+    </div>
 
+  </section>
+
+  <section class="page-section portfolio" id="ending">
+    <div class="container">
+
+      <!-- Portfolio Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Ending Soon Countdown</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-hourglass-end"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Portfolio Grid Items -->
+      @include('inc.home-page-countdown')
+      <div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-dark" href="https://startbootstrap.com/themes/freelancer/">
+          <i class="fas fa-chevron-circle-down mr-2"></i>
+          See More
+        </a>
+      </div>
     </div>
   </section>
 

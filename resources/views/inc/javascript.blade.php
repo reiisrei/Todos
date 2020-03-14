@@ -13,11 +13,10 @@ crossorigin="anonymous">
       var $this = $(this), finalDate = $(this).data('countdown');
       $this.countdown(finalDate, function(event) {
         $this.html(event.strftime(''
-        + '<span>%-w</span> week%!w '
-        + '<span>%-d</span> day%!d '
-        + '<span>%H</span> hr '
-        + '<span>%M</span> min '
-        + '<span>%S</span> sec'));
+        + '<span style="color:black; font-size: 40px; font-weight: 1000;">%-D</span> day%!d '
+        + '<span style="color:black; font-size: 40px; font-weight: 900;">%H</span> hr '
+        + '<span style="color:black; font-size: 40px; font-weight: 900;">%M</span> min '
+        + '<span style="color:black; font-size: 40px; font-weight: 900;">%S</span> sec'));
       });
     });
     </script>

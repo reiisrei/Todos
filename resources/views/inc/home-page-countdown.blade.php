@@ -4,11 +4,15 @@
     <div class="col-md-6 col-lg-4">
 
          <!-- Countdown Timer -->
-      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-        <div class="thumbnail text-center">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1" style="width:339.984;height:245.531px;">
+        <div class="thumbnail text-center" style="font-size:15px">
             <div class="caption">
-                <div data-countdown="2026/01/01" style="color:black"></div>
+                <div data-countdown="2021/01/01" style="background-color:rgb(26, 188, 156);opacity:0.8;"></div>
             </div>
+
+                <div class="caption timer-title " style="background-color:rgb(26, 188, 156);opacity:0.8;">
+                   <p>Mr. Robot</p>
+                </div>
         </div>
          <!-- -->
 
@@ -18,69 +22,143 @@
           </div>
 
         </div>
-        <img class="img-fluid" src="{{asset('img/portfolio/cabin.png') }}" alt="">
+        <img class="img-fluid" src="https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SY1000_CR0,0,666,1000_AL_.jpg" alt="">
       </div>
     </div>
 
     <!-- Portfolio Item 2 -->
     <div class="col-md-6 col-lg-4">
-      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-          <div class="portfolio-item-caption-content text-center text-white">
-            <i class="fas fa-plus fa-3x"></i>
-          </div>
-        </div>
-        <img class="img-fluid" src="{{ asset('img/portfolio/cake.png') }}" alt="">
-      </div>
-    </div>
 
-    <!-- Portfolio Item 3 -->
-    <div class="col-md-6 col-lg-4">
-      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-          <div class="portfolio-item-caption-content text-center text-white">
-            <i class="fas fa-plus fa-3x"></i>
-          </div>
-        </div>
-        <img class="img-fluid" src="{{ asset('img/portfolio/circus.png') }}" alt="">
-      </div>
-    </div>
+        <!-- Countdown Timer -->
+     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2" style="width:339.984;height:245.531px;">
+       <div class="thumbnail text-center" style="font-size:15px">
+           <div class="caption">
+               <div data-countdown="2021/01/01" style="background-color:rgb(26, 188, 156);opacity:0.8;"></div>
+           </div>
+           <div class="caption">
 
-    <!-- Portfolio Item 4 -->
-    <div class="col-md-6 col-lg-4">
-      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-          <div class="portfolio-item-caption-content text-center text-white">
-            <i class="fas fa-plus fa-3x"></i>
-          </div>
+           </div>
+       </div>
+       <div class="thumbnail text-center" style="font-size:15px">
+        <div class="caption timer-title ">
+           <p>Money Heist</p>
         </div>
-        <img class="img-fluid" src="{{ asset('img/portfolio/game.png') }}" alt="">
-      </div>
-    </div>
 
-    <!-- Portfolio Item 5 -->
-    <div class="col-md-6 col-lg-4">
-      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-          <div class="portfolio-item-caption-content text-center text-white">
-            <i class="fas fa-plus fa-3x"></i>
-          </div>
-        </div>
-        <img class="img-fluid" src="{{ asset('img/portfolio/safe.png') }}" alt="">
-      </div>
     </div>
+        <!-- -->
 
-    <!-- Portfolio Item 6 -->
-    <div class="col-md-6 col-lg-4">
-      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-          <div class="portfolio-item-caption-content text-center text-white">
-            <i class="fas fa-plus fa-3x"></i>
-          </div>
-        </div>
-        <img class="img-fluid" src="{{ asset('img/portfolio/submarine.png') }}" alt="">
-      </div>
-    </div>
+       <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+         <div class="portfolio-item-caption-content text-center text-white">
+           <i class="fas fa-plus fa-3x"></i>
+         </div>
+
+       </div>
+       <img class="img-fluid" src="https://images.hdqwalls.com/wallpapers/bthumb/4k-money-heist-netflix-2019-9f.jpg" alt="">
+     </div>
+   </div>
+
+   <!-- Portfolio Item 3 -->
+   <div class="col-md-6 col-lg-4">
+
+    <!-- Countdown Timer -->
+ <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3" style="width:339.984;height:245.531px;">
+   <div class="thumbnail text-center" style="font-size:15px">
+       <div class="caption">
+           <div data-countdown="2021/01/01" style="background-color:rgb(26, 188, 156);opacity:0.8;"></div>
+       </div>
+       <div class="caption">
+
+       </div>
+   </div>
+    <!-- -->
+
+   <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+     <div class="portfolio-item-caption-content text-center text-white">
+       <i class="fas fa-plus fa-3x"></i>
+     </div>
+
+   </div>
+   <img class="img-fluid" src="https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SY1000_CR0,0,666,1000_AL_.jpg" alt="">
+ </div>
+</div>
+
+<!-- Portfolio Item 4 -->
+<div class="col-md-6 col-lg-4">
+
+    <!-- Countdown Timer -->
+ <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4" style="width:339.984;height:245.531px;">
+   <div class="thumbnail text-center" style="font-size:15px">
+       <div class="caption">
+           <div data-countdown="2021/01/01" style="background-color:rgb(26, 188, 156);opacity:0.8;"></div>
+       </div>
+       <div class="caption">
+
+       </div>
+   </div>
+    <!-- -->
+
+   <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+     <div class="portfolio-item-caption-content text-center text-white">
+       <i class="fas fa-plus fa-3x"></i>
+     </div>
+
+   </div>
+   <img class="img-fluid" src="https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SY1000_CR0,0,666,1000_AL_.jpg" alt="">
+ </div>
+</div>
+
+<!-- Portfolio Item 5 -->
+<div class="col-md-6 col-lg-4">
+
+    <!-- Countdown Timer -->
+ <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5" style="width:339.984;height:245.531px;">
+   <div class="thumbnail text-center" style="font-size:15px">
+       <div class="caption">
+           <div data-countdown="2021/01/01" style="background-color:rgb(26, 188, 156);opacity:0.8;"></div>
+       </div>
+       <div class="caption">
+
+       </div>
+   </div>
+    <!-- -->
+
+   <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+     <div class="portfolio-item-caption-content text-center text-white">
+       <i class="fas fa-plus fa-3x"></i>
+     </div>
+
+   </div>
+   <img class="img-fluid" src="https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SY1000_CR0,0,666,1000_AL_.jpg" alt="">
+ </div>
+</div>
+
+<!-- Portfolio Item 6 -->
+<div class="col-md-6 col-lg-4">
+
+    <!-- Countdown Timer -->
+ <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6" style="width:339.984;height:245.531px;">
+   <div class="thumbnail text-center" style="font-size:15px">
+       <div class="caption">
+           <div data-countdown="2021/01/01" style="background-color:rgb(26, 188, 156);opacity:0.8;"></div>
+       </div>
+       <div class="caption">
+
+       </div>
+   </div>
+    <!-- -->
+
+   <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+     <div class="portfolio-item-caption-content text-center text-white">
+       <i class="fas fa-plus fa-3x"></i>
+     </div>
+
+   </div>
+   <img class="img-fluid" src="https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SY1000_CR0,0,666,1000_AL_.jpg" alt="">
+ </div>
+</div>
+
+
+
 
   </div>
   <!-- /.row -->
