@@ -9,6 +9,7 @@ crossorigin="anonymous">
 <script src="{{ asset('js/moment-timezone-with-data.js') }}"></script>
 
 <script>
+
     $('[data-countdown]').each(function() {
       var $this = $(this), finalDate = $(this).data('countdown');
       $this.countdown(finalDate, function(event) {

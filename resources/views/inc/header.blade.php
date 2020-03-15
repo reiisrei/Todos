@@ -1,5 +1,5 @@
 <!-- Masthead -->
-<header class="masthead bg-primary text-white text-center">
+<header class="masthead bg-primary text-white text-center" id="page-top">
     <div class="container d-flex align-items-center flex-column">
 
       <!-- Masthead Avatar Image -->
@@ -18,12 +18,18 @@
       </div>
 
       <!-- Masthead Subheading -->
+
+      @guest
       <p class="masthead-subheading font-weight-light mb-0">Click here to make your own countdown!</p>
       <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
+        <a class="btn btn-xl btn-outline-light" href="#signup">
           <i class="fas fa-sign-in-alt mr-2"></i>
           Sign Up!
         </a>
       </div>
+      @endguest
     </div>
+
+      <!-- Portfolio Modal 1 -->
+
   </header>

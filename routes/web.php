@@ -30,3 +30,7 @@ Route::get('todos/{todo}/delete', 'TodosController@destroy');
 Route::get('todos/{todo}/complete', 'TodosController@complete');
 
 Route::get('test', 'TestController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    @include('inc.head')
+<body>
+    @include('inc.nav')
+    <div id="app">
 
-@include('inc.head')
-
-<body id="page-top">
-   @include('inc.nav')
-
-
-        @yield('content')
-        @include('inc.javascript')
+        <main class="py-4">
+            @yield('content')
+        </main>
+    </div>
+    @include('inc.javascript')
 </body>
-
 </html>
+

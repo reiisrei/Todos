@@ -7,7 +7,7 @@
       <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1" style="width:339.984;height:245.531px;">
         <div class="thumbnail text-center" style="font-size:15px">
             <div class="caption">
-                <div data-countdown="2021/01/01" style="background-color:rgb(26, 188, 156);opacity:0.8;"></div>
+                <div data-countdown="2021-03-17 21:00"  style="background-color:rgb(26, 188, 156);opacity:0.8;"></div>
             </div>
 
                 <div class="caption timer-title " style="background-color:rgb(26, 188, 156);opacity:0.8;">

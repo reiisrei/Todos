@@ -65,8 +65,13 @@ Epic Countdown
   <!-- About Section -->
  @include('inc.about')
 
-  <!-- Contact Section -->
-@include('inc.contact')
+@if (Auth::guest())
+      <!-- login Section -->
+@include('inc.login')
+@else
+
+@endif
+
 
   <!-- Footer -->
   @include('inc.footer')

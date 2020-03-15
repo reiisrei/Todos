@@ -39,6 +39,6 @@
  <!-- Copyright Section -->
  <section class="copyright py-4 text-center text-white">
     <div class="container">
-      <small>Copyright &copy;Epic Countdown 2020</small>
+      <small>Copyright &copy;Epic Countdown {{ now()->year }}</small>
     </div>
   </section>
